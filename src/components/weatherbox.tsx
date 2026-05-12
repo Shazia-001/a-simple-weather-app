@@ -1,6 +1,7 @@
 import { Droplet, TrendingDown, TrendingUp, Wind } from "lucide-react";
 import getWeatherName from "../utils/weatherHelpers";
 import getWeatherIcon from "../utils/weatherHelp"
+import { capitalizeWords } from "../utils/stringHelper";
 
 export type WeatherData = {
   current: {
@@ -33,7 +34,7 @@ export default function WeatherBox({ weather, city }: Props) {
   return (
     <div className="weatherbox">
 
-      <div className="country">{ city }</div>
+      <div className="country">{capitalizeWords(city)}</div>
 
       <div className="weathericon">
         {getWeatherIcon(current.weather_code)}
@@ -78,5 +79,3 @@ export default function WeatherBox({ weather, city }: Props) {
     
     )
 }
-
-

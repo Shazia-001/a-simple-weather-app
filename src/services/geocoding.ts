@@ -9,8 +9,9 @@ export async function getCoordinates(city : string) {
 
     const data = await res.json()
 
-    if(!data.result || data.result.length === 0) {
+    if(!data.results || data.results.length === 0) {
         throw new Error ("City not found")
+        
     }
     return data.results[0]
 }
