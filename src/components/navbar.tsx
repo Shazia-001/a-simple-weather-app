@@ -42,7 +42,8 @@ export default function Navbar({
       </div>
 
       <div className="menu">
-        <TextAlignJustify className="menubtn"/>
+        
+        <TextAlignJustify className="menubtn"/> {/*this doesnt do anything yet */}
       </div>
 
     </header>
