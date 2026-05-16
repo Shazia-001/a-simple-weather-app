@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-This a a simple weaher app where the user can search up the cuty and get the highest lowest and current temp, the wind speed and the chances of rain
+This a a simple weather app where the user can search up the city and get the highest lowest and current temp, the wind speed and the chances of rain
 
 Built using React + Typescript + Vite and OpenMeteo Free open source API
 
