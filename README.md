@@ -1,7 +1,58 @@
-# React + TypeScript + Vite
+# Weather App
 
-This a a simple weather app where the user can search up the city and get the highest lowest and current temp, the wind speed and the chances of rain
+A simple weather application built with React, TypeScript, and Vite that allows users to search for a city and view current weather information using the OpenMeteo API.
 
-Built using React + Typescript + Vite and OpenMeteo Free open source API
+<img width="1171" height="950" alt="image" src="https://github.com/user-attachments/assets/f7329575-dcf9-4894-8105-677b8b048188" />
 
-<img width="1232" height="962" alt="image" src="https://github.com/user-attachments/assets/7e30d2ba-7cbf-424f-ad6e-1814bda81477" />
+
+
+## Features
+- Search weather by city name
+- Displays current temperature, high and low temp of the day
+- Displays wind speed and chances of rain
+- Show weather conditions
+- Weather icons
+- Responsive design
+
+
+## Built with
+- Typescript
+- React
+- Vite
+- CSS
+- OpenMeteo
+
+## Purpose
+
+This project was created to practice:
+
+- React component development
+- TypeScript fundamentals
+- API requests with fetch
+- State management using React hooks
+- Handling asynchronous data
+- Error handling and user feedback
+
+
+## Running locally
+git clone <repository-url>
+
+npm install
+
+npm start
+
+## What I Learned
+- Working with external APIs
+- Managing loading and error states
+- Creating TypeScript interfaces for API responses
+- Building responsive user interfaces
+- Organizing React projects with Vite
+
+## Future Improvements
+- 5-day weather forecast
+- Geolocation support
+- Dark mode
+- Search history
+- Unit conversion (°C / °F)
+- Dropdown for search bar
+
